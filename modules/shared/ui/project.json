@@ -1,0 +1,16 @@
+{
+  "name": "ui",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "modules/shared/ui/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": [
+    "type:ui",
+    "scope:shared"
+  ],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
